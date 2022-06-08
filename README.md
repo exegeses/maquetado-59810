@@ -49,3 +49,5 @@ Maquetado web es: volcar a código HTML y CSS el proyecto web que vayamos a reli
 ## 2. Selector de ID
 > El selector de ID sirve para modificar un elmento único en el HTML  
 
+## 3. Selector de clase  
+> El selector de clase, por oposición el selector de ID, se uitliza para modificar elementos ***que se repiten*** en el HTML  
