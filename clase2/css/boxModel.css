@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: #191e13;
+    width: 600px;
+    margin: auto;
+}
+h1{
+    color: #a8fbc4;
+}
+
+/* agrupamiento */
+#verde, #naranja, #celeste{
+    width: 250px;
+    height: 100px;
+}
+
+#verde{
+    background-color: #a8fbc4;
+    margin: 50px;
+}
+#naranja{
+    background-color: #ffb58b;
+    padding: 50px;
+}
+#celeste{
+    background-color: #8bfffd;
+    margin: 50px 0px 0px 100px;
+}
