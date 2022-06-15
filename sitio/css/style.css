@@ -50,3 +50,16 @@ a{
         font-size: 18px!important;
         padding: 14px;
     }
+
+/* MAIN */
+main{
+    min-height: 576px;
+    width: 1100px;
+    margin: auto;
+}
+
+/* FOOTER */
+footer{
+    height: 150px;
+    background-color: #262626;
+}
