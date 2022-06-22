@@ -46,7 +46,7 @@ a{
         vertical-align: middle;
         margin-right: 8px;
     }
-    nav a{
+    #top nav a{
         font-size: 18px!important;
         padding: 14px;
     }
@@ -60,6 +60,24 @@ main{
 
 /* FOOTER */
 footer{
-    height: 150px;
     background-color: #262626;
 }
+
+    #bottom {
+        width: 1100px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+
+        height: 150px;
+        align-items: center;
+    }
+    #bottom img{
+        width: 32px;
+        vertical-align: middle;
+        margin-right: 8px;
+    }
+
+        #redes img{
+            width: 16px;
+        }
