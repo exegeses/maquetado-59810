@@ -67,6 +67,37 @@ main{
     width: 1100px;
     margin: auto;
 }
+/* ## sección features ## */
+    #nuestraApp{
+        display: flex;
+        align-items: center;/* centrado vertical */
+
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+        #app{
+            width: 580px;
+        }
+            #app p{
+                margin: 18px 0px;
+            }
+
+    h2{
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    #features{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;/* para que respete los anchos */
+    }
+        #features article{
+            width: 326px;
+        }
+        #features h2 img{
+            vertical-align: middle;
+        }
 
 /* ## sección nosotros ## */
     #nosotros{
