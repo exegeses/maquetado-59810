@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #444;
+}
+main{
+    width: 1024px;
+    margin: auto;
+    /*background-color: #a26735;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+    main h1{
+        width: 100%;
+    }
+    main article{
+        width: 270px;
+        /*background-color: #f4be97;*/
+        margin: 32px 0px;
+        text-align: center;
+        padding: 12px;
+    }
+    main article img{
+        width: 250px;
+        border-radius: 150px;
+    }
