@@ -174,7 +174,49 @@ main{
         font-weight: 600;
         margin-top: 10px;
     }
-
+/* ## sección comprar ## */
+    #planes{
+        display: flex;
+        justify-content: space-between;
+        margin: 64px 0px;
+    }
+        #planes article{
+            width: 326px;
+            padding: 32px 0px;
+            text-align: center;
+            /* sombra */
+            /*box-shadow: ejeX ejeY blur color;*/
+            box-shadow: 0px 0px 16px #ddd;
+            border-radius: 12px;
+        }
+            #planes article div{
+                background-color: #f8f8f8;
+                padding: 10px 0px;
+                margin: 24px 0px;
+            }
+            #planes article b{
+                font-size: 32px;
+                font-weight: 600;
+            }
+            #planes article ul li{
+                list-style: none;
+                /* margin: 16px 0px; */
+                line-height: 32px;
+            }
+            #planes article a{
+                color:#262626;
+                text-decoration: none;
+                border:1px solid #262626;
+                padding: 8px 0px;
+                border-radius: 24px;
+                width: 150px;
+                margin: 24px 0px;
+                display: inline-block;
+            }
+            #planes article a:hover{
+                color: #fff;
+                background-color: #262626;
+            }
 
 /* FOOTER */
 footer{

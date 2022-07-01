@@ -21,3 +21,7 @@ main{
     padding: 50px 0px;
     background-color: #5d684f;
 }
+
+p{
+    line-height: 32px;
+}
