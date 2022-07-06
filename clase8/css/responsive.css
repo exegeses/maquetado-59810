@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Raleway, sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    color: #fff;
+}
+
+/* para un celu pequeño */
+@media ( min-width: 578px ){
+    main{
+        background-color: #f9f98d;
+        min-height: 200px;
+    }
+}
+/* para un tablet de kinder */
+@media ( min-width: 960px ){
+    main{
+        background-color: #f7b27d;
+        min-height: 350px;
+    }
+}
+/* para un desktop medio */
+@media ( min-width: 1100px ){
+    main{
+        background-color: #f88e3c;
+        min-height: 550px;
+    }
+}
