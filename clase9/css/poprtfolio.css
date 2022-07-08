@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    background-color: #464646;
+}
+main{
+    width: 960px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+    h1{width: 100%; margin: 32px 12px}
+    article{
+        width: 280px;
+        height: 160px;
+        background-image: url(../imgs/aplicaciones-moviles.jpg);
+        background-size: 280px;
+        margin-bottom: 32px;
+        border-radius: 8px;
+        transition: .3s;
+    }
+    article:hover{
+        background-size: 290px;
+    }
+    .sobre{
+        text-align: center;
+        height: 100%;
+        background-color: rgba(68, 68, 68, 0.65);
+        border-radius: 8px;
+        padding-top: 32px;
+        opacity: 0;
+        transition: .3s;
+    }
+    .sobre:hover{
+        opacity: 1;
+    }
