@@ -226,6 +226,76 @@ main{
             border:1px solid #c3b1eb !important;
         }
 
+/* ## sección contaco ## */
+        #seccionContacto{
+            background-image: url(../imgs/bg-contacto.jpg);
+            background-size: cover;
+            padding: 64px 0px;
+        }
+
+        #contacto{
+            width: 1000px;
+            margin: auto;
+            background-color: #fff;
+            display: flex;
+            justify-content: space-between;
+            padding: 64px;
+            border-radius: 16px;
+        }
+        #contacto form{
+            width: 548px;
+        }
+        #contacto form input{
+            height: 50px;
+        }
+        #contacto form input,
+        #contacto form textarea,
+        #contacto form button
+        {
+            width: 548px;
+            font-family: Raleway, sans-serif;
+            background-color: #F4F4F4;
+            border: 1px solid #d8d8d8;
+            border-radius: 12px;
+            margin: 16px 0px;
+            padding: 16px;
+        }
+        #contacto form textarea{
+            height: 152px;
+            resize: none;
+        }
+        #contacto form button{
+            height: 50px;
+            background-color: #444;
+            color: #fff;
+            cursor: pointer;
+            transition: .3s;
+        }
+        #contacto form button:hover{
+            background-color: #323232;
+        }
+
+        #contacto article{
+            width: 250px;
+            margin-top: 16px;
+            background-color: #F4F4F4;
+            border-radius: 12px;
+            text-align: center;
+        }
+        #contacto img{
+            width: 72px;
+            border: 1px solid #323232;
+            border-radius: 40px;
+            padding: 12px;
+        }
+        #contacto hr{
+            border: none;
+            margin: 24px;
+        }
+
+
+        
+        
 /* FOOTER */
 footer{
     background-color: #262626;
